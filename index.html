@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EntreLivros</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav-bar">
+        <span id="nomepg">EntreLivros</span>
+        <nav id="navv">
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="log">Login</h1>
+
+        <div class="content">
+            <form id="registro">
+                <div class="agrupando1">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="Email:" id="email" required aria-label="Email">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" placeholder="Senha:" id="password" required aria-label="Senha">
+                </div>
+
+                <div class="agrupando2">
+                    <div class="remember">
+                        <input type="checkbox" name="remember" id="remember">
+                        <label for="remember">Lembrar login</label>
+                    </div> 
+                    
+                    <button id="bot" type="submit">Entrar</button>
+                    <a href="#" id="forgot-password">Esqueci minha senha</a>
+                </div>
+            </form>
+            <div class="register">
+                <p id="register">Não tem conta?</p>
+                <button type="button">Registre-se</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
